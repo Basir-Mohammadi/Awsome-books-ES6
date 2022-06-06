@@ -1,0 +1,158 @@
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  line-height: 20px;
+}
+
+section h1 {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#book-list h1 {
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+.page-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid grey;
+  padding: 10px;
+  align-items: center;
+  margin: 0 20px;
+}
+
+#date {
+  float: right;
+  margin-right: 15px;
+}
+
+.right {
+  display: flex;
+  margin-right: 10px;
+}
+
+.right li {
+  margin-left: 12px;
+  cursor: pointer;
+  padding-left: 5px;
+}
+
+.border {
+  border-right: 2px solid grey;
+  padding-right: 5px;
+}
+
+.right .border:hover {
+  border-right: 3px solid rgb(124, 124, 236);
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+section ul {
+  list-style: circle;
+}
+
+.book-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2%;
+}
+
+.book-container button {
+  padding: 5px;
+  box-shadow: 5px 2px;
+}
+
+.form {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  display: none;
+}
+
+#book-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.book-container {
+  border: 2px solid grey;
+  margin: 15px auto;
+  width: 80%;
+}
+
+input {
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.book-container div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1%;
+  height: 35px;
+}
+
+.book-container div:nth-child(odd) {
+  background: lightgrey;
+}
+
+.add {
+  margin-top: 1%;
+  box-shadow: 5px 2px;
+  padding: 10px;
+  float: right;
+}
+
+section {
+  list-style-type: circle;
+  margin: auto 18%;
+  display: none;
+}
+
+.contact-details {
+  flex-direction: column;
+  display: none;
+  align-items: center;
+}
+
+.contact-details ul li {
+  list-style-type: disc;
+}
+
+.footer {
+  position: fixed;
+  border: 2px solid grey;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
